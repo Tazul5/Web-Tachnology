@@ -1,0 +1,108 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.nav-logo{
+    text-align: left;
+}
+.nav-heading{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    margin: 28px 10px 0px 20px;
+    padding: 10px 20px;
+}
+/*=============================================== */
+
+
+.profile{
+    top: 80px;
+}
+
+.profile p{
+    
+    width: 30%;
+}
+.top-logo{
+    position: absolute;
+    right: 170px;
+    top: 220px;
+    transition: transform 2.5s;
+}
+.bottom-logo{
+    position: absolute;
+    left: 100px;
+    bottom: 180px;
+    width: 100px;
+    transition: transform 2.5s;
+}
+
+.bottom-logo:hover{
+    transform: rotate(360deg);
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*=============================================== */
+
+.about-me-image img{
+    width: 150px;
+}
+.about-me-desc p{
+    text-align: left;
+}
+
+.about-me-image{
+    margin-top: 80px;
+    }
+.about-me-desc{
+    margin:0px auto; 
+}
+
+
+/*=============================================== */
+.education{
+    width: 30%;
+    margin: 10px 20px 0px 20px;
+}
+.work-experience{
+    width: 30%;
+    margin-right: 30px;
+}
+.skills{
+    width: 30%;
+    margin-left: 30px;
+}
+/*=============================================== */
+
+.achievment{
+    padding-right: 50px;
+}
+.contact{
+    padding-right: 20px;
+}
+.contact-list{
+    padding-left: 20px;
+}
